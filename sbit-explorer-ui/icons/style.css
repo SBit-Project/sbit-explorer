@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'sbit-icons';
+  src: url('fonts/sbit-icons.eot?vyas3r');
+  src: url('fonts/sbit-icons.eot?vyas3r#iefix') format('embedded-opentype'),
+    url('fonts/sbit-icons.ttf?vyas3r') format('truetype'),
+    url('fonts/sbit-icons.woff?vyas3r') format('woff'),
+    url('fonts/sbit-icons.svg?vyas3r#sbit-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sbit-icon {
+  font-family: 'sbit-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sbit-icon--sbit:before {
+  content: "\e906";
+}
+.sbit-icon--discord:before {
+  content: "\e90d";
+}
